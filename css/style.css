@@ -370,7 +370,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #353E47;
 		}
 
 	input[type="checkbox"] + label:before {
