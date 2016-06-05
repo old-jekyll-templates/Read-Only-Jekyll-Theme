@@ -5,8 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Alfredo Caldas. Laboratório de Prótese Dental atendendo a região da Grande Vitória.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ajscaldas.github.com" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  
+facebookurl: "https://www.facebook.com/alfredo.caldas.9"
+twitter_username:
+github_username:
 
 # Build settings
 markdown: kramdown
