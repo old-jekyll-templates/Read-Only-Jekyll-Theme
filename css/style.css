@@ -1067,6 +1067,61 @@
 		width: 100%;
 	}
 
+	#headservicos:before {
+		background-image: url("../images/servicos.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#headdocfoto:before {
+		background-image: url("../images/docfoto.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#headportfolio:before {
+		background-image: url("../images/portfolio.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#headdownloads:before {
+		background-image: url("../images/downloads.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#headsobre:before {
+		background-image: url("../images/sobre.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
 /* Footer */
 
 	#footer {
@@ -1074,7 +1129,7 @@
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 0em 0 2em 0;
 	}
 
 		#footer .copyright {
