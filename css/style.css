@@ -35,7 +35,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #45b8ac !important;
 		}
 
 	strong, b {
@@ -195,7 +195,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #45b8ac;
 		font-size: 3.5em;
 	}
 
@@ -259,7 +259,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #45b8ac;
 		}
 
 	.select-wrapper {
@@ -370,7 +370,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #353E47;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -562,7 +562,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #45b8ac;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -851,7 +851,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #45b8ac;
 			color: #ffffff !important;
 		}
 
@@ -932,7 +932,7 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
+		background: #45b8ac;
 		color: #d1f1e9;
 		height: 100%;
 		position: fixed;
@@ -1026,7 +1026,7 @@
 
 					#header > nav ul li a.active, #header > nav ul li .cc-active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #45b8ac !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -1067,6 +1067,61 @@
 		width: 100%;
 	}
 
+	#headservicos:before {
+		background-image: url("../images/servicos.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#headdocfoto:before {
+		background-image: url("../images/docfoto.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#headportfolio:before {
+		background-image: url("../images/portfolio.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#headdownloads:before {
+		background-image: url("../images/downloads.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#headsobre:before {
+		background-image: url("../images/sobre.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
 /* Footer */
 
 	#footer {
@@ -1074,7 +1129,7 @@
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 0em 0 2em 0;
 	}
 
 		#footer .copyright {
@@ -1100,3 +1155,10 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+
+	#contactgroup {
+		label
+			width: 50%
+			float: left
+}
