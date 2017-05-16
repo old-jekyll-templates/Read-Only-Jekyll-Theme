@@ -1,36 +1,15 @@
+
 # Site settings
-title: Shiyue Li
-subtitle: by HTML5 UP
-email: shiyue.li@yale.edu
-description: Shiyue's webpage
-baseurl: "/shiyue-li.github.io" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-author: Shiyue Li
-street_address: 10 Hillhouse Ave, 
-city: New Haven
-state: CT 
-zip_code: 06511
-country: United States of America
-phone: 
-
-# Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
-
-# Social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+title: Ion
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/Read-Only-Jekyll-Theme" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-
-sass:
-  style: compressed
